@@ -1,0 +1,73 @@
+import { AdInsight, TrendReport } from './types';
+
+export const mockAdInsights: AdInsight[] = [
+  {
+    id: '1',
+    platform: 'facebook',
+    title: 'Wike Kreasing Ads',
+    imageUrl: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop',
+    engagementScore: 92,
+    likes: 1847,
+    shares: 423,
+    comments: 156,
+    estimatedRevenue: '$13.00+',
+    productCategory: 'Fashion',
+    timestamp: new Date('2024-01-15'),
+  },
+  {
+    id: '2',
+    platform: 'facebook',
+    title: 'Dued Hoofy Ad',
+    imageUrl: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop',
+    engagementScore: 88,
+    likes: 1523,
+    shares: 389,
+    comments: 142,
+    estimatedRevenue: '$9.50+',
+    productCategory: 'Accessories',
+    timestamp: new Date('2024-01-14'),
+  },
+  {
+    id: '3',
+    platform: 'instagram',
+    title: 'Trending Home Decor',
+    imageUrl: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=400&h=300&fit=crop',
+    engagementScore: 85,
+    likes: 2103,
+    shares: 512,
+    comments: 203,
+    estimatedRevenue: '$15.20+',
+    productCategory: 'Home & Living',
+    timestamp: new Date('2024-01-13'),
+  },
+];
+
+export const mockTrendReports: TrendReport[] = [
+  {
+    id: '1',
+    productName: 'Smart LED Strip Lights',
+    trendScore: 94,
+    growthRate: '+127%',
+    marketDemand: 'high',
+    competitorCount: 23,
+    avgPrice: '$24.99',
+  },
+  {
+    id: '2',
+    productName: 'Minimalist Phone Stand',
+    trendScore: 87,
+    growthRate: '+89%',
+    marketDemand: 'high',
+    competitorCount: 45,
+    avgPrice: '$12.99',
+  },
+  {
+    id: '3',
+    productName: 'Eco-Friendly Water Bottle',
+    trendScore: 82,
+    growthRate: '+64%',
+    marketDemand: 'medium',
+    competitorCount: 67,
+    avgPrice: '$18.50',
+  },
+];

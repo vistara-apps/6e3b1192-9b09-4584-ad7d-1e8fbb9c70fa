@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjkxNTIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMmVmNzkwRGQ3OTkzQTM1ZkQ4NDdDMDUzRURkQUU5NDBEMDU1NTk2In0",
+    "payload": "eyJkb21haW4iOiJhZHNjb3V0LXguY29tIn0",
+    "signature": "MHgxMGQwZGU4ZGYwZDUwZTdmMGIxN2YxMTU2NDI1MjRmZTY0MTUyZGU4ZGU1MWU0MThiYjU4ZjVmZmQxYjRjNDBiNGVlZTRhNDcwNmVmNjhlMzQ0ZGQ5MDBkYmQyMmNlMmVlZGY5ZGQ0N2JlNWRmNzMwYzUxNjE4OWVjZDJjY2Y0MDFj"
+  },
+  "frame": {
+    "version": "1",
+    "name": "AdScout X",
+    "homeUrl": "https://adscout-x.com",
+    "iconUrl": "https://adscout-x.com/icon.png",
+    "splashImageUrl": "https://adscout-x.com/splash.png",
+    "splashBackgroundColor": "#0f1419",
+    "webhookUrl": "https://adscout-x.com/api/webhook",
+    "subtitle": "AI-Powered Dropshipping Insights",
+    "description": "Discover winning dropshipping products on X Layer with AI-powered social ad insights. Analyze engagement, identify trends, and validate market demand.",
+    "screenshotUrls": [
+      "https://adscout-x.com/screenshot1.png",
+      "https://adscout-x.com/screenshot2.png",
+      "https://adscout-x.com/screenshot3.png"
+    ],
+    "primaryCategory": "business",
+    "tags": ["dropshipping", "analytics", "xlayer", "ai", "ecommerce"],
+    "heroImageUrl": "https://adscout-x.com/hero.png",
+    "tagline": "Discover winning dropshipping products on X Layer with AI-powered social ad insights",
+    "ogTitle": "AdScout X - AI-Powered Dropshipping Insights",
+    "ogDescription": "Analyze social media ads, identify trends, and validate market demand on X Layer",
+    "ogImageUrl": "https://adscout-x.com/og.png"
+  }
+}
